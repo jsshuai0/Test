@@ -127,6 +127,7 @@ public class MainActivity extends Activity{
 			}
 			TextView tvGroup = (TextView) convertView.findViewById(R.id.tv_group);
 			tvGroup.setText(listGroup.get(groupPosition));
+			
 			return convertView;
 		}
 
